@@ -1,8 +1,8 @@
 {
   "releases": {
-    "1.0.16": {
-      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.16",
-      "base_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.16/",
+    "1.0.17": {
+      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.17",
+      "base_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.17/",
       "checksums_file": "SHA256SUMS.txt",
       "signature_file": "SHA256SUMS.txt.sig"
     }
@@ -10,7 +10,7 @@
   "platforms": {
     "android": {
       "stable": {
-        "version": "1.0.16",
+        "version": "1.0.17",
         "mandatory": false,
         "downloads": {
           "universal": {
@@ -28,7 +28,7 @@
         }
       },
       "latest": {
-        "version": "1.0.16",
+        "version": "1.0.17",
         "mandatory": false,
         "downloads": {
           "universal": {
@@ -47,7 +47,7 @@
       }
     },
     "windows": {
-      "version": "1.0.16",
+      "version": "1.0.17",
       "mandatory": false,
       "downloads": {
         "installer-x64": {
@@ -59,7 +59,7 @@
       }
     },
     "linux": {
-      "version": "1.0.16",
+      "version": "1.0.17",
       "mandatory": false,
       "downloads": {
         "amd64": {
@@ -71,7 +71,7 @@
       }
     },
     "macos": {
-      "version": "1.0.16",
+      "version": "1.0.17",
       "mandatory": false,
       "downloads": {
         "installer": {
