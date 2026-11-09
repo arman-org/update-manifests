@@ -1,0 +1,146 @@
+{
+  "announcements": [
+    {
+      "id": "maintenance-001",
+      "revision": 1,
+      "enabled": false,
+      "type": "maintenance",
+      "priority": 100,
+      "platforms": ["android", "windows", "linux", "macos"],
+      "title": {
+        "fa": "تعمیرات موقت",
+        "en": "Scheduled maintenance"
+      },
+      "message": {
+        "fa": "ممکن است اتصال برای مدت کوتاهی با اختلال همراه باشد. لطفاً کمی بعد دوباره تلاش کنید.",
+        "en": "Connections may be temporarily interrupted. Please try again shortly."
+      },
+      "display": {
+        "mode": "once"
+      },
+      "dismissible": true,
+      "starts_at": null,
+      "expires_at": null,
+      "action": {
+        "type": "open_url",
+        "label": {
+          "fa": "اطلاعات بیشتر",
+          "en": "Learn more"
+        },
+        "url": "https://github.com/armanlife/arman-vpn-client/releases"
+      },
+      "min_app_version": "1.0.14",
+      "max_app_version": null
+    },
+    {
+      "id": "update-required-001",
+      "revision": 1,
+      "enabled": false,
+      "type": "warning",
+      "priority": 200,
+      "platforms": ["android", "windows", "linux", "macos"],
+      "title": {
+        "fa": "به‌روزرسانی ضروری",
+        "en": "Update required"
+      },
+      "message": {
+        "fa": "برای ادامهٔ استفاده از برنامه، لطفاً به آخرین نسخه به‌روزرسانی کنید.",
+        "en": "Please update to the latest version to continue using the app."
+      },
+      "display": {
+        "mode": "until_acknowledged"
+      },
+      "dismissible": false,
+      "starts_at": null,
+      "expires_at": null,
+      "action": {
+        "type": "navigate",
+        "target": "updates",
+        "label": {
+          "fa": "رفتن به به‌روزرسانی",
+          "en": "Go to updates"
+        }
+      },
+      "min_app_version": null,
+      "max_app_version": "1.0.13"
+    }
+  ],
+  "platforms": {
+    "android": {
+      "version": "1.0.14",
+      "mandatory": false,
+      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.14",
+      "checksums_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt",
+      "signature_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt.sig",
+      "downloads": {
+        "universal": {
+          "file": "Arman-VPN-Android-universal.apk",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Android-universal.apk"
+        },
+        "arm64-v8a": {
+          "file": "Arman-VPN-Android-arm64-v8a.apk",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Android-arm64-v8a.apk"
+        },
+        "armeabi-v7a": {
+          "file": "Arman-VPN-Android-armeabi-v7a.apk",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Android-armeabi-v7a.apk"
+        },
+        "x86_64": {
+          "file": "Arman-VPN-Android-x86_64.apk",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Android-x86_64.apk"
+        }
+      }
+    },
+    "windows": {
+      "version": "1.0.14",
+      "mandatory": false,
+      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.14",
+      "checksums_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt",
+      "signature_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt.sig",
+      "downloads": {
+        "installer-x64": {
+          "file": "Arman-VPN-Windows-Setup-x64.exe",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Windows-Setup-x64.exe"
+        },
+        "archive-x64": {
+          "file": "Arman-VPN-Windows-x64.zip",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Windows-x64.zip"
+        }
+      }
+    },
+    "linux": {
+      "version": "1.0.14",
+      "mandatory": false,
+      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.14",
+      "checksums_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt",
+      "signature_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt.sig",
+      "downloads": {
+        "amd64": {
+          "file": "Arman-VPN-Linux-amd64.tar.gz",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Linux-amd64.tar.gz"
+        },
+        "arm64": {
+          "file": "Arman-VPN-Linux-arm64.tar.gz",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-Linux-arm64.tar.gz"
+        }
+      }
+    },
+    "macos": {
+      "version": "1.0.14",
+      "mandatory": false,
+      "release_url": "https://github.com/armanlife/arman-vpn-client/releases/tag/v1.0.14",
+      "checksums_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt",
+      "signature_url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/SHA256SUMS.txt.sig",
+      "downloads": {
+        "installer": {
+          "file": "Arman-VPN-macOS.dmg",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-macOS.dmg"
+        },
+        "archive": {
+          "file": "Arman-VPN-macOS.tar.gz",
+          "url": "https://github.com/armanlife/arman-vpn-client/releases/download/v1.0.14/Arman-VPN-macOS.tar.gz"
+        }
+      }
+    }
+  }
+}
