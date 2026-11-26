@@ -192,16 +192,10 @@
         "geoip": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
       }
     },
-    "files": {
-      "iran.dat": "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat"
-    },
+    "iran_hosted_domains": "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat",
     "direct_apps": [
       "https://raw.githubusercontent.com/arman-org/android-direct-apps/main/dist/{region}.json",
       "https://cdn.jsdelivr.net/gh/arman-org/android-direct-apps@main/dist/{region}.json"
-    ],
-    "flags": [
-      "https://cdn.jsdelivr.net/gh/lipis/flag-icons@main/flags/4x3/{code}.svg",
-      "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/{code}.svg"
     ]
   }
 }
