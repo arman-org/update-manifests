@@ -198,14 +198,6 @@
     "direct_apps": [
       "https://raw.githubusercontent.com/arman-org/android-direct-apps/main/dist/{region}.json",
       "https://cdn.jsdelivr.net/gh/arman-org/android-direct-apps@main/dist/{region}.json"
-    ],
-    "recommended_edges": [
-      "23.235.42.141",
-      "23.235.42.200",
-      "23.235.42.50",
-      "23.235.42.100",
-      "23.235.42.180",
-      "23.235.42.240"
     ]
   }
 }
