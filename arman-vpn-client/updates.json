@@ -180,24 +180,5 @@
       "min_app_version": null,
       "max_app_version": null
     }
-  ],
-  "lists": {
-    "sources": {
-      "chocolate4u": {
-        "geosite": "https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geosite.dat",
-        "geoip": "https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geoip.dat"
-      },
-      "loyalsoldier": {
-        "geosite": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
-        "geoip": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
-      }
-    },
-    "direct_domains": {
-      "ir": "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat"
-    },
-    "direct_apps": [
-      "https://raw.githubusercontent.com/arman-org/android-direct-apps/main/dist/{region}.json",
-      "https://cdn.jsdelivr.net/gh/arman-org/android-direct-apps@main/dist/{region}.json"
-    ]
-  }
+  ]
 }
